@@ -1,6 +1,4 @@
-Feature: Free CRM Login Feature
-
-
+Feature: Employees Page Feature
 #without Examples Keyword
 #Scenario: Free CRM Login Test Scenario
 #
@@ -11,11 +9,11 @@ Feature: Free CRM Login Feature
 #Then user is on home page
 
 
-
-@First
-#with Examples Keyword
 Scenario: Free CRM Login Test Scenario
 	Given user is loggedin with username hojinkind@hotmail.com and password Kargo123!
 	Then user navigates to employee page
-	Then Close the browser
 
+#Scenario: Free CRM Login Test Scenario
+#	Given user is loggedin with username hojinkind@hotmail.com and password Kargo123!
+#	Then user navigates to trips page
+#	Then Close the browser

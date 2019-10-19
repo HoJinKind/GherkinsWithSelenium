@@ -9,4 +9,5 @@ public final class Constants {
     public static String CORRECT_EMAIL = "hojinkind@hotmail.com";
     public static String CORRECT_PASSWORD = "Kargo123!";
     public static  String EMPLOYEE_PAGE_BUTTON = "MenuLabel__menuLabel___dUNLI";
+    public static  String XPATH_EMPLOYEE_PAGE_INPUT= "//input[@placeholder=\"Search by employee's email address, name or employee ID\"]";
 }

@@ -1,0 +1,6 @@
+"Groups is how you categorize your employees; phone_number is the phone number used in mobile App, place a space between the country code and the phone number. Country code of the company will be applied if country code is missing; if user type column is empty, or any value other than ""admin"", it will be taken as ""user""",,,,,
+name,email,employee_id,groups,phone_number,user_type
+Sample Name 1,user1@company.com,E1,"Engineering, HR",65 98765432,admin
+Sample Name 2,user2@company.com,E2,Engineering,,user
+Sample Name 3,user3@company.com,E2,Finance,65 98765433,user
+Sample Name 4,user4@company.com,E2,HR,98765434,user
